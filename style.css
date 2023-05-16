@@ -1,0 +1,64 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    background-color: rgba(14, 14, 14, 0.925);
+}
+
+.header-container{
+    width: 100%;
+    height: 70px;
+    margin: 0px 0px 10px 0px;
+    background: linear-gradient(40deg, rgba(102,102,102,1) 10%, rgba(0, 127, 201, 0.89) 51%,  rgba(102,102,102,1) 90%);
+    border-radius: 0px 0px 10px 10px;
+    
+}
+.header-container h1{
+    text-align: center;
+    padding: 10px 0px 20px 0px;
+}
+
+.main-contaier{
+    width: 80%;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(102,102,102,1);
+    margin: 50px auto 0px auto;
+    border-radius: 10px;
+    box-shadow: 1px 2px 10px white;
+}
+
+.form-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.form-container label{
+    font-size: 1.5rem;
+    margin-bottom: 25px;
+}
+.form-container .inputForm{
+    width: 160px;
+    height: 25px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 8px;
+    text-align: center;
+}
+.Botton{
+    width: 100px;
+    height: 25px;
+    border: 1px solid rgba(39, 40, 41, 0.822);
+    border-radius: 8px;
+    margin-bottom: 8px; 
+    background-color: rgba(0, 127, 201, 0.89);
+}
+.Botton:hover{
+    box-shadow: 2px 2px 10px rgb(12, 12, 12);
+    background-color: rgba(172, 215, 240, 0.705);
+    border: 1px solid rgba(0, 127, 201, 0.89);
+}
